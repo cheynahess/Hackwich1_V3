@@ -14,6 +14,8 @@
 		9F69F035279F46E2002E03D4 /* Hackwich1_V3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F69F034279F46E2002E03D4 /* Hackwich1_V3Tests.swift */; };
 		9F69F03F279F46E2002E03D4 /* Hackwich1_V3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F69F03E279F46E2002E03D4 /* Hackwich1_V3UITests.swift */; };
 		9F69F041279F46E2002E03D4 /* Hackwich1_V3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F69F040279F46E2002E03D4 /* Hackwich1_V3UITestsLaunchTests.swift */; };
+		9F69F04E279F470B002E03D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F69F04D279F470B002E03D4 /* ViewController.swift */; };
+		9F69F050279F472E002E03D4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F69F04F279F472E002E03D4 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9F69F03A279F46E2002E03D4 /* Hackwich1_V3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackwich1_V3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F69F03E279F46E2002E03D4 /* Hackwich1_V3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich1_V3UITests.swift; sourceTree = "<group>"; };
 		9F69F040279F46E2002E03D4 /* Hackwich1_V3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich1_V3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F69F04D279F470B002E03D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F69F04F279F472E002E03D4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				9F69F023279F46E0002E03D4 /* Hackwich1_V3App.swift */,
 				9F69F025279F46E0002E03D4 /* ContentView.swift */,
+				9F69F04D279F470B002E03D4 /* ViewController.swift */,
+				9F69F04F279F472E002E03D4 /* Storyboard.storyboard */,
 				9F69F027279F46E2002E03D4 /* Assets.xcassets */,
 				9F69F029279F46E2002E03D4 /* Preview Content */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				9F69F02B279F46E2002E03D4 /* Preview Assets.xcassets in Resources */,
 				9F69F028279F46E2002E03D4 /* Assets.xcassets in Resources */,
+				9F69F050279F472E002E03D4 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F69F04E279F470B002E03D4 /* ViewController.swift in Sources */,
 				9F69F026279F46E0002E03D4 /* ContentView.swift in Sources */,
 				9F69F024279F46E0002E03D4 /* Hackwich1_V3App.swift in Sources */,
 			);
